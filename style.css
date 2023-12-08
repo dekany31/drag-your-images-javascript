@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#drop-region {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: peachpuff;
+  border-radius: 20px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  height: 300px;
+  padding: 60px 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#drop-region:hover {
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+}
+
+.drop-message {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+input {
+  margin: 15%;
+}
+
+#upload-button {
+  padding: 10px 20px;
+  margin-top: 5%;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+#upload-button:hover {
+  background-color: darkgreen;
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+#image-preview {
+  margin-top: 20px;
+}

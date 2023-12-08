@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./main.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="drop-region">
+    <div class="drop-message">
+      Drag & Drop - húzd ide a képeket, vagy kattints a feltöltéshez
+    </div>
+    <div>
+      <!-- <label for="profile_pic">Choose file to upload</label> -->
+      <input type="file" id="profile_pic" name="profile_pic" multiple accept="image/*" />
+      <!-- multiple: Engedélyezi a többfájlos kiválasztást -->
+    </div>
+    <div>
+      <button id="upload-button">Submit</button>
+    </div>
+    <div id="image-preview"></div>
+  </div>
+</body>
+
+</html>
